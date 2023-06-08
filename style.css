@@ -29,14 +29,6 @@ a {
     display: block
 }
 
-.loading-overlay {
-    max-height: 300vh;
-}
-
-.loading-animation {
-    opacity: 1;
-}
-
 .sf-logo-u-animation {
     animation-duration: 2000ms;
     animation-iteration-count: 1;
