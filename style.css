@@ -1,0 +1,38 @@
+a {
+    color: inherit;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #F3F4F5;
+    background: #3E4943;
+}
+
+::selection {
+    color: #F3F4F5;
+    background: #3E4943;
+}
+
+.load,
+.load *,
+.image__link--wrapper,
+.image__link--wrapper *,
+.no-action {
+    pointer-events: none;
+}
+
+.study__services--item:not(:last-child) p:after {
+    content: ', ';
+}
+
+.loading {
+    display: block
+}
+
+.sf-logo-u-animation {
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forward;
+}
