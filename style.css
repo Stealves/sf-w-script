@@ -17,6 +17,23 @@ a {
     background: #3E4943;
 }
 
+.radio__button input[type="radio"]:checked~.radio__label {
+    background-color: #f3f4f5;
+    color: #252525;
+}
+
+.radio__button:hover .radio__label {
+    background-color: #f3f4f5;
+    color: #252525;
+    transform: scale(1.1);
+}
+
+.radio__button:active .radio__label {
+    background-color: #f3f4f5;
+    color: #252525;
+    transform: scale(0.1);
+}
+
 .load,
 .load *,
 .image__link--wrapper,
