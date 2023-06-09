@@ -57,3 +57,26 @@ a {
     animation-timing-function: linear;
     animation-fill-mode: forward;
 }
+
+/* Study Case */
+.study__content {
+  margin: 0 40px;
+}
+
+.study__content figure[class$="-fullwidth"],
+.study__content figure[class*="-fullwidth "] {
+  margin: 60px -40px !important;
+  width: calc(100% + 80px) !important;
+}
+
+@media screen and (min-width: 768px) {
+  .study__content {
+  	margin: 0 calc(10% + 40px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .study__content {
+  	margin: 0 calc(20% + 40px);
+  }
+}
