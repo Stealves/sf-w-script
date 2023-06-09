@@ -31,7 +31,7 @@ a {
 .radio__button:active .radio__label {
     background-color: #f3f4f5;
     color: #252525;
-    transform: scale(0.1);
+    transform: scale(0.9);
 }
 
 .load,
