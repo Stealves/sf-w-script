@@ -1,5 +1,53 @@
 html {
-    font-size: 18px;
+    font-size: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .hero {
+        min-height: calc(100vh - 90px);
+    }
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 480px) {
+    h1 {
+        font-size: calc(2.89vw + 2.187rem);
+    }
+
+    h2 {
+        font-size: calc(1.73vw + 1.923rem);
+    }
+
+    h3 {
+        font-size: calc(0.971vw + 1.662rem);
+    }
+
+    h4 {
+        font-size: calc(0.484vw + 1.418rem);
+    }
+
+    .title__page .sticky__title {
+        font-size: calc(5.104vw + 1.472rem);
+    }
+
+    .title__section {
+        font-size: calc(2.292vw + 2.314rem);
+    }
+
+    .title__large {
+        font-size: calc(1.118vw + 2.034rem);
+    }
+
+    .title__small {
+        font-size: calc(0.526vw + 1.62rem);
+    }
+
+    .title__xsmall {
+        font-size: calc(0.186vw + 1.277rem);
+    }
+
+    .large {
+        font-size: calc(0.33vw + 1.167rem);
+    }
 }
 
 a {
@@ -60,23 +108,23 @@ a {
 
 /* Study Case */
 .study__content {
-  margin: 0 40px;
+    margin: 0 40px;
 }
 
 .study__content figure[class$="-fullwidth"],
 .study__content figure[class*="-fullwidth "] {
-  margin: 60px -40px !important;
-  width: calc(100% + 80px) !important;
+    margin: 60px -40px !important;
+    width: calc(100% + 80px) !important;
 }
 
 @media screen and (min-width: 768px) {
-  .study__content {
-  	margin: 0 calc(10% + 40px);
-  }
+    .study__content {
+        margin: 0 calc(10% + 40px);
+    }
 }
 
 @media screen and (min-width: 992px) {
-  .study__content {
-  	margin: 0 calc(20% + 40px);
-  }
+    .study__content {
+        margin: 0 calc(20% + 40px);
+    }
 }
