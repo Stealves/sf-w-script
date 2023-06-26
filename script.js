@@ -56,8 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
     menuLink.forEach(link => link.addEventListener('click', () => hamburguerMenu.click()));
 
     // Call Calendly
-    const calendlyLinks = document.querySelectorAll(".calendly-link");
-    calendlyLinks.forEach(link => link.addEventListener('click', callCalendly));
+    // const calendlyLinks = document.querySelectorAll(".calendly-link");
+    // calendlyLinks.forEach(link => link.addEventListener('click', callCalendly));
 
     // Fade In Loading on Page Transition
     document.querySelectorAll("a").forEach(link => {
