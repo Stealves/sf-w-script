@@ -2,6 +2,18 @@ html {
     font-size: 100%;
 }
 
+.btn-fill {
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+.btn-fill:hover .fill-container {
+    transform: translateY(-50%) rotate(0);
+}
+
+.btn-fill:hover .fill-container .fill-container__after {
+    transform: translateY(0);
+}
+
 @media only screen and (max-width: 991px) {
     .hero {
         min-height: calc(100vh - 90px);
