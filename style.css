@@ -14,6 +14,34 @@ html {
     transform: translateY(0);
 }
 
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 1rem));
+    }
+}
+
+@keyframes scroll-fast {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.scroll {
+    animation: scroll 50s linear infinite;
+}
+
+.scroll-fast {
+    animation: scroll-fast 5s linear infinite;
+}
+
 @media only screen and (max-width: 991px) {
     .hero {
         min-height: calc(100vh - 90px);
