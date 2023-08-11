@@ -146,6 +146,40 @@ a {
     animation-fill-mode: forward;
 }
 
+.fix-rounded {
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+.w-editor .loading {
+    display: none !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    a:hover {
+        color: red;
+    }
+
+    .btn-fill:hover .fill-container {
+        transform: translateY(-50%) rotate(0);
+    }
+
+    .btn-fill:hover .fill-container .fill-container__after {
+        transform: translateY(0);
+    }
+
+    .radio__button:hover .radio__label {
+        background-color: #f3f4f5;
+        color: #252525;
+        transform: scale(1.1);
+    }
+
+    .radio__button:active .radio__label {
+        background-color: #f3f4f5;
+        color: #252525;
+        transform: scale(0.9);
+    }
+}
+
 /* Study Case */
 .study__content {
     margin: 0 40px;
