@@ -155,10 +155,6 @@ a {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    a:hover {
-        color: red;
-    }
-
     .btn-fill:hover .fill-container {
         transform: translateY(-50%) rotate(0);
     }
